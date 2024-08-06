@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django awesome!</title>
+    <link rel="stylesheet" href="{% static 'django_app/styles/styles.css' %}">
+</head>
+<body>
+    <h1>
+        Welcome to Django
+    </h1>
+    <p>
+        Django easy and fast web apps
+    </p>
+    <script src="{% static 'django_app/js/script.js' %}"></script>
+    <img src="{% static 'django_app/images/logo.jpg'%}" alt="logo" srcset="">
+</body>
+</html>

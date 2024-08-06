@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(155, 199, 140);
+}
+
+#content-main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 200px;
+}

@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="{% static 'form_app/styles/styles.css'%}">
+</head>
+<body>
+    <div class="centered-content">
+        <img  class="logo" src="{% static 'form_app/images/logo.png'%}" alt="">
+        <form action="{% url 'contact' %}" method="GET">
+            <button type="submit" class="btn">Enter Form</button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
